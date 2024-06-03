@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --orange: #e88d67;
+  --gray: #3c5b6f;
+  --white: #f6f5f2;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* navbar */
+.container {
+  margin: 0 auto;
+  max-width: 1180px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+
+  margin: 0 auto;
+}
+.navLogo {
+  cursor: pointer;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 25px;
+}
+button {
+  background-color: var(--orange);
+  color: var(--white);
+  width: 130px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 18px;
+}
+button:hover {
+  background-color: #ff8f00;
+}
+/* body */
+.body {
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 72px);
+}
+.burger-img {
+  width: 400px;
+}
+.body h1 {
+  font-weight: 800;
+  line-height: 102px;
+  font-size: 102px;
+}
+.body p {
+  font-weight: 600;
+  color: var(--gray);
+  max-width: 400px;
+}
+.body-content {
+  display: flex;
+  flex-direction: column;
+}
+.body-btn {
+  display: flex;
+  gap: 40px;
+}
+.body-btn button {
+  font-size: 24px;
+}
+.seconday-btn {
+  background: transparent;
+  color: var(--gray);
+  border: 1px solid var(--gray);
+}
+.shopping p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.brand-icons {
+  font-size: 40px;
+}
+.brand-icons .icons {
+  color: var(--orange);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  width: 120px;
+}
